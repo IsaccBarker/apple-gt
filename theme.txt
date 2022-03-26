@@ -1,0 +1,103 @@
+# Main options
+title-text: "Fatal System Error"
+#desktop-image: "background.png"
+desktop-color: "#000000"
+#terminal-font: "Ubuntu Mono Regular 20"
+#terminal-box: "terminal_box_*.png"
+#terminal-left: "0"
+#terminal-top: "0"
+#terminal-width: "100%"
+#terminal-height: "100%"
+#terminal-border: "0"
+
++ label {
+  left = 0%
+  top = 44%
+  width = 100%
+  align = "center"
+  text = "System Unbootable (System 9 Shared Code Relic)"
+  color = "#ffffff"
+  font = "SF Pro Bold 36"
+}
+
++ label {
+  left = 0%
+  top = 48%
+  width = 100%
+  align = "center"
+  text = "A fatal system error has occured. Please visit a certified Apple Service Center to repair your device. They may require access to your ASS port"
+  color = "#ffffff"
+  font = "SF Pro Regular 20"
+}
+
++ label {
+  left = 0%
+  top = 50%
+  width = 100%
+  align = "center"
+  text = "(Apple Secure System port) to commence recovery via a recovery DICK (Digital Interface Computer Kontroller). Do not allow unauthorized parties to"
+  color = "#ffffff"
+  font = "SF Pro Regular 20"
+}
+
++ label {
+  left = 0%
+  top = 52%
+  width = 100%
+  align = "center"
+  text = "insert their DICK into your GAY (General Apple Yottabyte-capable) ASS port. This could result in memory tearing and unwanted software."
+  color = "#ffffff"
+  font = "SF Pro Regular 20"
+}
+
++ label {
+  left = 0%
+  top = 56%
+  width = 100%
+  align = "center"
+  text = "XNU (System 9 Shared Code Relic) Error: 0xORGANSHUFFLE"
+  color = "#ffffff"
+  font = "SF Pro Regular 17"
+}
+
++ label {
+  left = 0%
+  top = 58%
+  width = 100%
+  align = "center"
+  text = "Press 'enter' to commence repair. Press 'c' for GRUB/UEFI console."
+  color = "#ffffff"
+  font = "SF Pro Regular 17"
+}
+
+# Boot menu
+#+ boot_menu {
+#  left = 0%
+#  top = 75%
+#  width = 100%
+#  height = 65%
+#  align = "center"
+#  item_font = "SF Pro Regular 20"
+#  item_color = "#ffffff"
+#  selected_item_color = "#cccccc"
+#  icon_width = 36
+#  icon_height = 36
+#  item_icon_space = 20
+#  item_height = 40
+#  item_padding = 2
+#  item_spacing = 10
+#  selected_item_pixmap_style = "select_*.png"
+}
+
+# Countdown label
+# You can change the name of default starting OS here
+#+ label {
+#  left = 50%
+#  top = 85%
+#  align = "center"
+#  id = "__timeout__"
+#  text = "Recovery will be started in %d seconds."
+#  color = "#ffffff"
+#  font = "SF Pro 17"
+#}
+
