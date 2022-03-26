@@ -65,7 +65,7 @@ desktop-color: "#000000"
   top = 58%
   width = 100%
   align = "center"
-  text = "Press 'enter' to commence repair. Press 'c' for GRUB/UEFI console."
+  text = "Press 'enter' to commence repair. Press 'c' for GRUB/UEFI console. Press 'e' to edit boot arguments."
   color = "#ffffff"
   font = "SF Pro Regular 17"
 }
